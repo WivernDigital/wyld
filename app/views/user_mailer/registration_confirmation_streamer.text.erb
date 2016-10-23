@@ -1,9 +1,10 @@
 Welcome <%= @user.category %>!
 
-Thanks for registering your interest in Wyld.live. 
-You're just a catwalk away from completing the signup process.
+Thanks for registering your interest in Wyld.
 
-Please confirm your email by clicking the link below.
+After confirming your email by clicking the link below, you'll be directed to a page where you can enter some details about your channel, location and the fashion you cover.
+
+Please now confirm your email by clicking the link below.
 
 <%= confirm_email_user_url(@user.confirm_token) %>
 
